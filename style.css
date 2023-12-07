@@ -37,6 +37,8 @@ a {
 }
 
 .sidebar-title {
+    font-size: 2rem;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -96,7 +98,7 @@ a {
     margin-top: 3rem;
 }
 
-.sidebar-title-responsive {
+.sidebar-title.responsive {
     display: none;
 }
 
@@ -110,11 +112,11 @@ a {
         display: none;
     }
 
-    .sidebar-title-normal {
+    .sidebar-title.normal {
         display: none;
     }
 
-    .sidebar-title-responsive {
+    .sidebar-title.responsive {
         display: block;
     }
 
